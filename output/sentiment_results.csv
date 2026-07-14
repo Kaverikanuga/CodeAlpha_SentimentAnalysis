@@ -1,0 +1,101 @@
+Review,Rating,Cleaned_Text,Polarity,Sentiment,Emotion
+"This laptop offers great battery life, which makes it a great buy.",5,laptop offers great battery life makes great buy,0.5666666666666668,Positive,Happy
+I dislike this tablet because the display is terrible and not reliable.,2,dislike tablet display terrible reliable,-1.0,Negative,Angry
+The mouse performs fine and the camera quality is average overall.,3,mouse performs fine camera quality average overall,0.0888888888888889,Neutral,Neutral
+The phone has wonderful battery life and I am very happy with the purchase.,5,phone wonderful battery life happy purchase,0.9,Positive,Happy
+The tablet feels poor and the price is not worth the money.,2,tablet feels poor price worth money,-0.05000000000000002,Neutral,Sad
+The mouse performs standard and the display is average overall.,3,mouse performs standard display average overall,-0.049999999999999996,Neutral,Neutral
+I love this watch because the display is great and dependable.,5,love watch display great dependable,0.65,Positive,Love
+The phone feels cheap and the sound quality is not worth the money.,2,phone feels cheap sound quality worth money,0.3666666666666667,Positive,Neutral
+The speaker offers decent build quality and works fine for daily use.,3,speaker offers decent build quality works fine daily use,0.17083333333333334,Positive,Neutral
+The speaker has impressive camera quality and I am very happy with the purchase.,5,speaker impressive camera quality happy purchase,0.9,Positive,Happy
+This laptop is bad and the storage disappointed me badly.,2,laptop bad storage disappointed badly,-0.7166666666666665,Negative,Angry
+The phone performs average and the design is average overall.,3,phone performs average design average overall,-0.09999999999999999,Neutral,Neutral
+"This watch offers great camera quality, which makes it a great buy.",5,watch offers great camera quality makes great buy,0.5666666666666668,Positive,Happy
+The keyboard feels disappointing and the storage is not worth the money.,2,keyboard feels disappointing storage worth money,-0.15,Negative,Sad
+The laptop performs decent and the battery life is average overall.,3,laptop performs decent battery life average overall,0.005555555555555554,Neutral,Neutral
+The camera has amazing camera quality and I am very happy with the purchase.,5,camera amazing camera quality happy purchase,0.7000000000000001,Positive,Happy
+This watch is frustrating and the build quality disappointed me badly.,2,watch frustrating build quality disappointed badly,-0.6166666666666666,Negative,Angry
+"This headphones has decent storage, which is acceptable for the price.",3,headphones decent storage acceptable price,0.16666666666666666,Positive,Neutral
+"This camera offers fantastic camera quality, which makes it a great buy.",5,camera offers fantastic camera quality makes great buy,0.43333333333333335,Positive,Excited
+I dislike this mouse because the display is weak and not reliable.,2,dislike mouse display weak reliable,-0.375,Negative,Neutral
+The watch performs standard and the build quality is average overall.,3,watch performs standard build quality average overall,-0.049999999999999996,Neutral,Neutral
+The tablet has wonderful storage and I am very happy with the purchase.,5,tablet wonderful storage happy purchase,0.9,Positive,Happy
+This phone is bad and the storage disappointed me badly.,2,phone bad storage disappointed badly,-0.7166666666666665,Negative,Angry
+The laptop performs okay and the display is average overall.,3,laptop performs okay display average overall,0.11666666666666665,Positive,Neutral
+I love this tablet because the design is reliable and dependable.,5,love tablet design reliable dependable,0.5,Positive,Love
+I dislike this headphones because the build quality is disappointing and not reliable.,2,dislike headphones build quality disappointing reliable,-0.6,Negative,Sad
+"This mouse has standard price, which is acceptable for the price.",3,mouse standard price acceptable price,0.0,Neutral,Neutral
+I love this watch because the ease of use is superb and dependable.,5,love watch ease use superb dependable,0.75,Positive,Love
+The tablet feels weak and the sound quality is not worth the money.,2,tablet feels weak sound quality worth money,0.10833333333333334,Positive,Neutral
+The laptop offers decent battery life and works fine for daily use.,3,laptop offers decent battery life works fine daily use,0.17083333333333334,Positive,Neutral
+"This headphones offers amazing performance, which makes it a great buy.",5,headphones offers amazing performance makes great buy,0.5,Positive,Happy
+The watch feels weak and the performance is not worth the money.,2,watch feels weak performance worth money,-0.037500000000000006,Neutral,Neutral
+The mouse performs average and the build quality is average overall.,3,mouse performs average build quality average overall,-0.09999999999999999,Neutral,Neutral
+I love this laptop because the price is superb and dependable.,5,love laptop price superb dependable,0.75,Positive,Love
+This laptop is awful and the build quality disappointed me badly.,2,laptop awful build quality disappointed badly,-0.8166666666666665,Negative,Angry
+The charger performs okay and the battery life is average overall.,3,charger performs okay battery life average overall,0.11666666666666665,Positive,Neutral
+"This mouse offers amazing sound quality, which makes it a great buy.",5,mouse offers amazing sound quality makes great buy,0.47500000000000003,Positive,Happy
+The camera feels disappointing and the price is not worth the money.,2,camera feels disappointing price worth money,-0.15,Negative,Sad
+The headphones offers standard storage and works fine for daily use.,3,headphones offers standard storage works fine daily use,0.12916666666666668,Positive,Neutral
+"This mouse offers superb battery life, which makes it a great buy.",5,mouse offers superb battery life makes great buy,0.6333333333333334,Positive,Happy
+I dislike this charger because the battery life is frustrating and not reliable.,2,dislike charger battery life frustrating reliable,-0.4,Negative,Neutral
+The camera offers decent display and works fine for daily use.,3,camera offers decent display works fine daily use,0.17083333333333334,Positive,Neutral
+The keyboard has reliable camera quality and I am very happy with the purchase.,5,keyboard reliable camera quality happy purchase,0.8,Positive,Happy
+I dislike this laptop because the price is awful and not reliable.,2,dislike laptop price awful reliable,-1.0,Negative,Angry
+The charger offers okay price and works fine for daily use.,3,charger offers okay price works fine daily use,0.25416666666666665,Positive,Neutral
+I love this mouse because the ease of use is wonderful and dependable.,5,love mouse ease use wonderful dependable,0.75,Positive,Love
+The mouse feels bad and the display is not worth the money.,2,mouse feels bad display worth money,-0.19999999999999993,Negative,Angry
+"This watch has standard storage, which is acceptable for the price.",3,watch standard storage acceptable price,0.0,Neutral,Neutral
+The charger has wonderful camera quality and I am very happy with the purchase.,5,charger wonderful camera quality happy purchase,0.9,Positive,Happy
+I dislike this laptop because the storage is disappointing and not reliable.,2,dislike laptop storage disappointing reliable,-0.6,Negative,Sad
+The keyboard offers average display and works fine for daily use.,3,keyboard offers average display works fine daily use,0.09166666666666667,Neutral,Neutral
+The phone has excellent display and I am very happy with the purchase.,5,phone excellent display happy purchase,0.9,Positive,Happy
+The speaker feels disappointing and the camera quality is not worth the money.,2,speaker feels disappointing camera quality worth money,-0.15,Negative,Sad
+The camera offers standard design and works fine for daily use.,3,camera offers standard design works fine daily use,0.12916666666666668,Positive,Neutral
+"This headphones offers reliable ease of use, which makes it a great buy.",5,headphones offers reliable ease use makes great buy,0.45,Positive,Happy
+This tablet is disappointing and the design disappointed me badly.,2,tablet disappointing design disappointed badly,-0.6833333333333332,Negative,Angry
+The laptop performs fine and the camera quality is average overall.,3,laptop performs fine camera quality average overall,0.0888888888888889,Neutral,Neutral
+I love this speaker because the performance is reliable and dependable.,5,love speaker performance reliable dependable,0.5,Positive,Love
+I dislike this phone because the camera quality is cheap and not reliable.,2,dislike phone camera quality cheap reliable,0.4,Positive,Neutral
+The speaker offers decent camera quality and works fine for daily use.,3,speaker offers decent camera quality works fine daily use,0.17083333333333334,Positive,Neutral
+I love this tablet because the price is fantastic and dependable.,5,love tablet price fantastic dependable,0.45,Positive,Love
+This watch is weak and the sound quality disappointed me badly.,2,watch weak sound quality disappointed badly,-0.35624999999999996,Negative,Angry
+"This tablet has standard camera quality, which is acceptable for the price.",3,tablet standard camera quality acceptable price,0.0,Neutral,Neutral
+"This laptop offers excellent battery life, which makes it a great buy.",5,laptop offers excellent battery life makes great buy,0.6333333333333334,Positive,Happy
+I dislike this laptop because the display is cheap and not reliable.,2,dislike laptop display cheap reliable,0.4,Positive,Neutral
+The charger offers fine design and works fine for daily use.,3,charger offers fine design works fine daily use,0.23333333333333334,Positive,Neutral
+I love this phone because the sound quality is excellent and dependable.,5,love phone sound quality excellent dependable,0.6333333333333333,Positive,Love
+This watch is bad and the build quality disappointed me badly.,2,watch bad build quality disappointed badly,-0.7166666666666665,Negative,Angry
+The watch performs fine and the price is average overall.,3,watch performs fine price average overall,0.0888888888888889,Neutral,Neutral
+I love this headphones because the display is wonderful and dependable.,5,love headphones display wonderful dependable,0.75,Positive,Love
+The phone feels poor and the ease of use is not worth the money.,2,phone feels poor ease use worth money,-0.05000000000000002,Neutral,Sad
+The speaker offers standard battery life and works fine for daily use.,3,speaker offers standard battery life works fine daily use,0.12916666666666668,Positive,Neutral
+"This charger offers fantastic price, which makes it a great buy.",5,charger offers fantastic price makes great buy,0.43333333333333335,Positive,Excited
+I dislike this phone because the price is awful and not reliable.,2,dislike phone price awful reliable,-1.0,Negative,Angry
+The laptop offers decent ease of use and works fine for daily use.,3,laptop offers decent ease use works fine daily use,0.17083333333333334,Positive,Neutral
+"This watch offers wonderful camera quality, which makes it a great buy.",5,watch offers wonderful camera quality makes great buy,0.6333333333333334,Positive,Happy
+I dislike this keyboard because the ease of use is terrible and not reliable.,2,dislike keyboard ease use terrible reliable,-1.0,Negative,Angry
+The watch performs standard and the ease of use is average overall.,3,watch performs standard ease use average overall,-0.049999999999999996,Neutral,Neutral
+The speaker has superb build quality and I am very happy with the purchase.,5,speaker superb build quality happy purchase,0.9,Positive,Happy
+This tablet is awful and the build quality disappointed me badly.,2,tablet awful build quality disappointed badly,-0.8166666666666665,Negative,Angry
+"This camera has average design, which is acceptable for the price.",3,camera average design acceptable price,-0.15,Negative,Neutral
+"This phone offers amazing design, which makes it a great buy.",5,phone offers amazing design makes great buy,0.5,Positive,Happy
+I dislike this laptop because the price is bad and not reliable.,2,dislike laptop price bad reliable,-0.6999999999999998,Negative,Angry
+The headphones offers decent storage and works fine for daily use.,3,headphones offers decent storage works fine daily use,0.17083333333333334,Positive,Neutral
+The speaker has reliable build quality and I am very happy with the purchase.,5,speaker reliable build quality happy purchase,0.8,Positive,Happy
+The mouse feels poor and the build quality is not worth the money.,2,mouse feels poor build quality worth money,-0.05000000000000002,Neutral,Sad
+The mouse performs average and the build quality is average overall.,3,mouse performs average build quality average overall,-0.09999999999999999,Neutral,Neutral
+The headphones has amazing build quality and I am very happy with the purchase.,5,headphones amazing build quality happy purchase,0.7000000000000001,Positive,Happy
+This mouse is bad and the sound quality disappointed me badly.,2,mouse bad sound quality disappointed badly,-0.4374999999999999,Negative,Angry
+The keyboard performs okay and the display is average overall.,3,keyboard performs okay display average overall,0.11666666666666665,Positive,Neutral
+"This tablet offers reliable build quality, which makes it a great buy.",5,tablet offers reliable build quality makes great buy,0.45,Positive,Happy
+I dislike this camera because the battery life is cheap and not reliable.,2,dislike camera battery life cheap reliable,0.4,Positive,Neutral
+The camera offers okay battery life and works fine for daily use.,3,camera offers okay battery life works fine daily use,0.25416666666666665,Positive,Neutral
+The headphones has reliable build quality and I am very happy with the purchase.,5,headphones reliable build quality happy purchase,0.8,Positive,Happy
+The mouse feels poor and the performance is not worth the money.,2,mouse feels poor performance worth money,-0.05000000000000002,Neutral,Sad
+The laptop performs decent and the camera quality is average overall.,3,laptop performs decent camera quality average overall,0.005555555555555554,Neutral,Neutral
+I love this mouse because the battery life is fantastic and dependable.,5,love mouse battery life fantastic dependable,0.45,Positive,Love
+I dislike this watch because the sound quality is bad and not reliable.,2,dislike watch sound quality bad reliable,-0.1499999999999999,Negative,Angry
+"This speaker has decent battery life, which is acceptable for the price.",3,speaker decent battery life acceptable price,0.16666666666666666,Positive,Neutral
+I love this tablet because the camera quality is impressive and dependable.,5,love tablet camera quality impressive dependable,0.75,Positive,Love
