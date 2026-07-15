@@ -221,9 +221,65 @@ def generate_wordcloud(df: pd.DataFrame, output_path: Path) -> None:
     plt.axis("off")
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()                                                               
+def generate_rating_chart(df, output_path):
+    plt.figure(figsize=(8,5))
+    df["Rating"].value_counts().sort_index().plot(kind="bar")
+    plt.title("Rating Distribution")
+    plt.xlabel("Rating")
+    plt.ylabel("Count")
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
     plt.close()
+def generate_emotion_chart(df, output_path):
+    plt.figure(figsize=(8,5))
+    df["Emotion"].value_counts().plot(kind="bar")
+    plt.title("Emotion Distribution")
+    plt.xlabel("Emotion")
+    plt.ylabel("Count")
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    
+def generate_positive_words_chart(df, output_path):
+    positive = df[df["Sentiment"] == "Positive"]
 
+    words = " ".join(positive["Cleaned_Text"])
 
+    from collections import Counter
+
+    counter = Counter(words.split())
+    common = counter.most_common(10)
+
+    labels = [x[0] for x in common]
+    values = [x[1] for x in common]
+
+    plt.figure(figsize=(8,5))
+    plt.bar(labels, values)
+    plt.xticks(rotation=45)
+    plt.title("Top Positive Words")
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+def generate_negative_words_chart(df, output_path):
+    negative = df[df["Sentiment"] == "Negative"]
+
+    words = " ".join(negative["Cleaned_Text"])
+
+    counter = Counter(words.split())
+    common = counter.most_common(10)
+
+    labels = [x[0] for x in common]
+    values = [x[1] for x in common]
+
+    plt.figure(figsize=(8, 5))
+    plt.bar(labels, values)
+    plt.xticks(rotation=45)
+    plt.title("Top Negative Words")
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    
 def get_top_words(df: pd.DataFrame, top_n: int = 10) -> list:
     """Get the most frequent words from cleaned review text."""
     tokens = [token for text in df["Cleaned_Text"].dropna() for token in text.split()]
@@ -250,7 +306,10 @@ def save_results(df: pd.DataFrame) -> None:
     generate_bar_chart(df, OUTPUT_DIR / "sentiment_chart.png")
     generate_pie_chart(df, OUTPUT_DIR / "pie_chart.png")
     generate_wordcloud(df, OUTPUT_DIR / "wordcloud.png")
-
+    generate_rating_chart(df, OUTPUT_DIR / "rating_distribution.png")
+    generate_emotion_chart(df, OUTPUT_DIR / "emotion_distribution.png")
+    generate_positive_words_chart(df, OUTPUT_DIR / "positive_words.png")
+    generate_negative_words_chart(df, OUTPUT_DIR / "negative_words.png") 
 
 def create_screenshots() -> None:
     """Generate simple screenshot-style images for the project documentation."""
