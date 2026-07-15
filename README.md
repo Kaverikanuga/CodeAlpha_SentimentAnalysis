@@ -1,79 +1,129 @@
-# CodeAlpha Sentiment Analysis
+# 😊 Sentiment Analysis using NLP
 
-![Project Banner](screenshots/terminal_output.png)
+A professional Sentiment Analysis project developed using **Python**, **Natural Language Processing (NLP)**, **NLTK**, **Pandas**, and **Matplotlib**.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Objectives](#objectives)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Architecture](#project-architecture)
-- [Folder Structure](#folder-structure)
-- [Installation Guide](#installation-guide)
-- [Usage](#usage)
-- [Output](#output)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-- [Author](#author)
+The project analyzes customer reviews, classifies them into **Positive, Negative, and Neutral** sentiments, detects emotions, generates visualizations, and exports the processed data for further analysis.
 
-## Project Overview
-This project is a complete beginner-friendly sentiment analysis application built for the CodeAlpha Data Analytics Internship. It loads product reviews, cleans the text, performs sentiment analysis using TextBlob, detects emotions using keyword-based logic, and generates professional charts and CSV exports.
+---
 
-## Objectives
-- Classify reviews as Positive, Negative, or Neutral
-- Detect emotions such as Happy, Excited, Love, Angry, Sad, Fear, and Neutral
-- Generate professional visualizations for analysis
-- Create a portfolio-ready project for GitHub and LinkedIn
+# 📚 Table of Contents
 
-## Features
-- Load CSV review data
-- Clean and preprocess text
-- Perform polarity-based sentiment analysis
-- Detect emotions from review text
-- Generate bar chart, pie chart, and word cloud
-- Export processed results to CSV
-- Display a polished console summary
-- Automatically create output folders and sample datasets
+- Project Overview
+- Features
+- Technology Stack
+- Project Architecture
+- Folder Structure
+- Installation Guide
+- Running the Project
+- Output
+- Visualizations
+- Screenshots
+- Future Improvements
+- License
+- Author
 
-## Technology Stack
+---
+
+# 📌 Project Overview
+
+This project performs sentiment analysis on customer reviews using Natural Language Processing techniques.
+
+The application:
+
+- Cleans review text
+- Detects sentiment
+- Identifies emotions
+- Calculates statistics
+- Generates charts
+- Creates a WordCloud
+- Exports processed results into CSV format
+
+This project is suitable for beginners as well as internship submissions.
+
+---
+
+# ✨ Features
+
+- Review Text Cleaning
+- Sentiment Classification
+- Emotion Detection
+- Rating Analysis
+- Word Frequency Analysis
+- WordCloud Generation
+- CSV Export
+- Multiple Data Visualizations
+- Professional Folder Structure
+- Beginner Friendly Code
+
+---
+
+# 🛠 Technology Stack
+
+## Programming Language
+
 - Python
-- Pandas
-- Matplotlib
-- TextBlob
-- WordCloud
-- NLTK
-- Scikit-learn
 
-## Project Architecture
-```text
-Dataset
-↓
+## Libraries
+
+- Pandas
+- NumPy
+- NLTK
+- Matplotlib
+- WordCloud
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+# 🏗 Project Architecture
+
+```
+Customer Reviews
+        │
+        ▼
+Load Dataset
+        │
+        ▼
 Text Cleaning
-↓
-Tokenization
-↓
+        │
+        ▼
 Sentiment Analysis
-↓
+        │
+        ▼
 Emotion Detection
-↓
+        │
+        ▼
 Visualization
-↓
+        │
+        ▼
 CSV Export
 ```
 
-## Folder Structure
-```text
+---
+
+# 📂 Folder Structure
+
+```
 CodeAlpha_SentimentAnalysis/
+│
 ├── data/
-│   ├── amazon_reviews.csv
-│   └── sample_reviews.csv
+│   └── amazon_reviews.csv
+│
 ├── output/
 │   ├── sentiment_results.csv
 │   ├── sentiment_chart.png
+│   ├── pie_chart.png
+│   ├── rating_distribution.png
+│   ├── emotion_distribution.png
 │   ├── wordcloud.png
-│   └── pie_chart.png
+│   ├── positive_words.png
+│   └── negative_words.png
+│
 ├── screenshots/
+│
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -81,41 +131,184 @@ CodeAlpha_SentimentAnalysis/
 └── .gitignore
 ```
 
-## Installation Guide
-1. Clone the repository.
-2. Navigate to the project folder.
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python app.py
-   ```
+---
 
-## Usage
-The application automatically creates the dataset if it is missing and saves the processed results to the output folder.
+# ⚙ Installation Guide
 
-## Output
+## Clone Repository
+
+```bash
+git clone https://github.com/Kaverikanuga/CodeAlpha_SentimentAnalysis.git
+```
+
+Open the project folder.
+
+---
+
+## Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+Activate Environment
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source .venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶ Running the Project
+
+```bash
+python app.py
+```
+
+---
+
+# 📊 Output
+
+After execution, the following files are generated inside the **output** folder.
+
+### CSV
+
+- sentiment_results.csv
+
+### Charts
+
+- sentiment_chart.png
+- pie_chart.png
+- rating_distribution.png
+- emotion_distribution.png
+- wordcloud.png
+- positive_words.png
+- negative_words.png
+
+---
+
+# 📈 Visualizations
+
 The project generates:
-- Processed CSV: output/sentiment_results.csv
-- Bar chart: output/sentiment_chart.png
-- Pie chart: output/pie_chart.png
-- Word cloud: output/wordcloud.png
 
-## Screenshots
-- Terminal preview: screenshots/terminal_output.png
-- Sentiment chart: screenshots/sentiment_chart.png
-- GitHub portfolio preview: screenshots/github_repo.png
+### Sentiment Bar Chart
 
-## Future Improvements
-- Add a web dashboard with Streamlit or Flask
-- Integrate real-world review datasets
-- Add multilingual sentiment analysis
-- Deploy the app online
+Displays Positive, Negative and Neutral review counts.
 
-## License
+---
+
+### Sentiment Pie Chart
+
+Shows sentiment percentage distribution.
+
+---
+
+### Rating Distribution Chart
+
+Displays frequency of review ratings.
+
+---
+
+### Emotion Distribution Chart
+
+Shows detected emotions from reviews.
+
+---
+
+### WordCloud
+
+Visualizes the most frequent words.
+
+---
+
+### Positive Words Chart
+
+Displays the most common positive words.
+
+---
+
+### Negative Words Chart
+
+Displays the most common negative words.
+
+---
+
+# 📷 Screenshots
+
+Include screenshots of:
+
+- Project Folder
+- Terminal Output
+- Sentiment Bar Chart
+- Rating Distribution Chart
+- Emotion Distribution Chart
+- WordCloud
+- Positive Words Chart
+- Negative Words Chart
+- Pie Chart
+- Output Folder
+
+---
+
+# 🚀 Future Improvements
+
+- Deep Learning Sentiment Analysis
+- Real-Time Twitter Analysis
+- Interactive Dashboard
+- Flask Web Application
+- Streamlit Deployment
+- Multi-language Support
+
+---
+
+# 📜 License
+
 This project is licensed under the MIT License.
 
-## Author
-Created by a Python developer for the CodeAlpha Data Analytics Internship.
+---
+
+# 👩‍💻 Author
+
+**Kaveri Kanuga**
+
+GitHub:
+https://github.com/Kaverikanuga
+
+LinkedIn:
+https://www.linkedin.com/in/kaveri-kanuga/
+
+---
+
+# ⭐ Project Summary
+
+✔ Sentiment Analysis
+
+✔ Emotion Detection
+
+✔ Rating Analysis
+
+✔ WordCloud Generation
+
+✔ Positive & Negative Word Analysis
+
+✔ Data Visualization
+
+✔ CSV Export
+
+✔ Internship Ready Project
